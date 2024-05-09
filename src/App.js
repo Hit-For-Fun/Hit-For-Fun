@@ -7,8 +7,10 @@ function App() {
 
   return (
       <div className="App">
+
+        <button onClick={()=>setCount(count + 1)}>text</button>
           <h1> Hello world! </h1>
-          
+          {count}
     </div>
   );
 }
